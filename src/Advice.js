@@ -21,7 +21,7 @@ const Advice = () => {
     <div className="bg-slate-800 h-[100vh] w-full flex justify-center items-center">
       <div className="bg-slate-700 rounded-xl p-4 sm:w-2/5 w-full mx-8 flex flex-col items-center">
         <h6 className="text-green-500 font-semibold">ADVICE # {adviceId}</h6>
-        <p className="text-2xl font-bold text-white px-7 mt-5">"{advice}"</p>
+        <p align="center" className="text-2xl font-bold text-white px-7 mt-5">"{advice}"</p>
         <svg
           className="mt-5"
           width="444"

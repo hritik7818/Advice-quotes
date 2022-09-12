@@ -19,7 +19,7 @@ const Advice = () => {
   }, [count]);
   return (
     <div className="bg-slate-800 h-[100vh] w-full flex justify-center items-center">
-      <div className="bg-slate-700 rounded-xl p-4 w-2/5 flex flex-col items-center">
+      <div className="bg-slate-700 rounded-xl p-4 sm:w-2/5 w-full mx-8 flex flex-col items-center">
         <h6 className="text-green-500 font-semibold">ADVICE # {adviceId}</h6>
         <p className="text-2xl font-bold text-white px-7 mt-5">"{advice}"</p>
         <svg
